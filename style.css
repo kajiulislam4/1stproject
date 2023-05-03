@@ -88,14 +88,20 @@ p{
 background-color:white;
 color: black;
  }
- .h2{
-  
-  font-size: 30px; ;
+
+ .sekendpart{
+ text-align: center;
+ margin: 0;
+ padding: 0;
+ align-items: center;
+ }
+ .sekendpart h2{
+  font-size: 30px; 
   font-weight:bold;
   text-align: center;
-text-transform: uppercase;
-margin: auto;
-padding: 20px;
+ text-transform: uppercase;
+ margin: auto;
+ padding: 20px;
 }
 .im{
   text-align: center;
@@ -112,7 +118,7 @@ font-size: 16px;
 .thrdpart{
   display: grid;
   grid-template-columns: auto auto auto auto;
-
+text-align: center;
  }
  .rony{
   width: 100%;
@@ -129,7 +135,20 @@ grid-template-columns: auto auto;
 .box1 i button{
   color: black;
 }
+.SIXpart{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  }
+  .sox{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
  .savenpart{
+  text-align: center;
+  align-items: center;
   margin: 0%;
   padding: 0%;
   background-image:url(last.jpg);
@@ -151,6 +170,14 @@ color: brown;
 .p5{
 color: aquamarine;
 }  
+.eight{
+  
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    }
+
 .eight h2{
   color: chartreuse;
 }
@@ -165,7 +192,7 @@ color: aquamarine;
 /*  */
 .savenpart::before {
 
-  background: #000;
+  background-color:  #000;
   height: 100%;
   width: 100%;
   display: block;
@@ -173,24 +200,22 @@ color: aquamarine;
 }
 /*  */
 .imag{
-  
-
-   
-    position: absolute;
+  position:relative;
     display:grid;
-    margin: 10px auto;
-    padding: 20px;
+    margin:auto;
+    padding:auto;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 3px;
-   align-items: center;
+    column-gap:3px;
+   justify-items: center;
 
-  
-}
+   }
 
 img.box1{
   height: 350px;
   width: 300px;
-padding: 10px;
+ padding: 10px;
+ margin: 10px;
+ transform: scale(22.5px);
 }
 img.box2{
   height: 350px;
@@ -231,3 +256,47 @@ img.box9{
   height: 350px;
   width: 300px;
 }
+/*  */
+.ninth{
+  height: 500px;
+  width:100% ;
+  margin-top: 40px;
+  padding:0%;
+  background-image: url(counter-bg.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+text-align: center;
+}
+.tenth{
+  text-align: center;
+  margin-top: 50px;
+  padding: 0;
+  align-items: center;
+  background-color:burlywood
+  }
+  .join{
+    text-align: center;
+    margin-top: 50px;
+    padding: 0;
+    align-items: center;
+    background-color: bisque;
+  }
+  /* problem */
+.elevin{
+   width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0;
+    align-items: center;
+    
+}
+  .elevin p{
+    color: #363940;
+  }
+   .twelve{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   }
+  
+   /* problem */
