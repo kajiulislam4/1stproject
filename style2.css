@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+
+
+
+}
+.userform{
+ font-family: Arial;
+ font-size: 16px;
+     
+}
+.userform{
+    
+        width: 1165px;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+     column-gap: normal;
+      text-align: center;
+      background-color: cornflowerblue;
+}
+
+ .list .ullist ul li{
+    text-decoration: none;
+    list-style: none;
+   
+ }
+ .box1{
+    height: 300px;
+    width:200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    
+}
+.basic {
+    background: #ddd;
+    text-align: center;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: bold;
+   padding-top: 20px;
+}
+.basic{
+    height:100px;
+    width: 100%;
+    background-color: rebeccapurple
+ 
+}.dolar{
+    height:70px;
+    width: 100%;
+background-color: aquamarine;
+padding-top:40px;
+}
+.text{ font-size: 20px;}
+.list{
+    height: 250px;
+    width: 100%;  
+    background-color: #FFFFFF; 
+    margin: 0;  
+    padding: 0;
+}
+.ullist{
+    line-height: 38px;
+}
+.last{
+    height: 100px;
+    width: 100%;
+    background-color: #AFAFAF;   
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;}
+.box3{
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    -webkit-transform:scale(1.1);
+}
+.box4{
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    
+ }
+
+ @media (max-width: 768px) {
+    .cards_wrapper{
+      display: block;
+      width: 99%;
+    }
+ }
+  .box1{
+    margin-bottom: 10px;}
+    .basic{
+        border-top: 2px solid #000;}
